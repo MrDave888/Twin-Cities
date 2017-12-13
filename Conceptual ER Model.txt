@@ -1,0 +1,61 @@
+City 1 (New York)
+	name
+	description
+	lat
+	lng
+	lang
+	country
+	population
+	currency
+	TimeZone
+	*attractions
+		name
+		type
+		description
+		dateBuilt
+		architect
+		capcacity
+		lat
+		lng
+		**photos
+			link
+			alt
+			source/photographer/artist
+	*transport
+		name
+		lat
+		lng
+		type
+		link (to transport provider)
+
+
+
+City 2 (London)
+	name
+	description
+	lat
+	lng
+	lang
+	country
+	population
+	currency
+	TimeZone
+	*attractions
+		name
+		type
+		description
+		dateBuilt
+		architect
+		capcacity
+		lat
+		lng
+		**photos
+			link
+			alt
+			source/photographer/artist
+	*transport
+		name
+		lat
+		lng
+		type
+		link (to transport provider)
